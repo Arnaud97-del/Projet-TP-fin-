@@ -1,0 +1,61 @@
+#reponse {
+    position: fixed;
+    top: 680px; 
+    left: 355px;
+    color: black;
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
+    font-weight: bold;
+    font-size: large;
+}
+
+#fiche {
+    display: inline;
+    text-decoration: none;
+    font-family: "Georgia";
+    position: absolute;
+    top: 150px;
+    left: 20px; 
+    font-size: 32px;
+    color: #AE9321;
+    letter-spacing: 4px;
+}
+
+
+#NomJeu {
+	font-family: "Bookman";
+	position: fixed;
+    top: 110px; 
+    left: 655px;
+    color: #AE9321;
+    font-size: 42px;
+    font-style: italic;
+    letter-spacing: 8px;
+
+}
+ 
+#région {
+	font-family: "Georgia";
+	position: fixed;
+    top: 510px; 
+    left: 700px;
+    color: black;
+    border: 2px solid white;
+    border-color: brown;
+}
+
+#choix {
+	font-family: "Georgia";
+	position: fixed;
+    top: 310px; 
+    left: 650px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+

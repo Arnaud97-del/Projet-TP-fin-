@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <title>heroicis</title>
+   <div id="NomJeu">
+      <h2>heroicis</h2>
+   </div>
+  <meta charset="utf-8">
+  <link   rel="stylesheet" type="text/css" href="CSS/tp10.CSS">
+  <script src="JS/TP10.JS"></script>
+</head>
+<body>
+  <header>
+    <div id="fiche">
+     <nav>
+       <ul>
+          <li><a href="Mage.html">Classe du mage</a></li> 
+            <br>
+            <br>
+            <br>
+            <br>
+          <li><a href="#Apropos">Classe du nain</a></li>
+            <br>
+            <br>
+            <br>
+            <br>
+          <li><a href="Elfe.html">Classe de l'elf</a></li>
+        </ul>
+      </nav>
+    </div>
+   <div id="choix">
+        <form id="formulaire" action=# onSubmit="return personnage(form);">
+            <fieldset>
+                <legend>créer son personnage</legend>
+                <lebel for="nom">votre pseudo:</lebel>
+                <input type="text" name="nom" size="12" maxlength="12" placeholder="votre pseudo" required>
+                    <br/></br>
+                <lebel for="classe">votre classe :</lebel>
+                  <select name="classe">
+                    <option>Elfe</option>
+                    <option>Nain</option>
+                    <option>Mage</option>
+                </select> 
+                <br></br>
+                <lebel for="region">region:</lebel>
+                  <select name="region">
+                    <option>skypia</option>
+                    <option>greed island</option>
+                    <option>konoha</option>
+                </select>
+                    <br></br>
+                <input type=submit>
+                <input type=reset>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="région">
+               <input type="button" value="entrer dans la région">
+
+    </div>
+    <div id="afficher">
+      <p id="reponse"></p>
+    </div>
+</body>
+</html>
